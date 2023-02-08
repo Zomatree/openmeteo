@@ -1,0 +1,19 @@
+{
+  "name": "openmeteo",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.13.0",
+    "@types/node-fetch": "^2.6.2",
+    "node-fetch": "^3.3.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
